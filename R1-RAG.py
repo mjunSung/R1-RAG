@@ -9,6 +9,7 @@ from langchain.chains.retrieval import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
 ############################
+
 # Runtime error 수정
 import os
 import torch
@@ -17,6 +18,7 @@ import torch
 
 # or simply:
 torch.classes.__path__ = []
+
 #############################
 
 # 색상 팔레트 정의
